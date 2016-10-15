@@ -1,3 +1,5 @@
+const assertions = require('./rules/assertions');
+
 module.exports = {
   environments: {
     testharness: {
@@ -30,7 +32,13 @@ module.exports = {
         done: false,
         promise_test: false,
         promise_rejects: false
+      },
+      rules: {
+        "testharness/assertions": "error"
       }
     }
+  },
+  rules: {
+    assertions: assertions
   }
 };
