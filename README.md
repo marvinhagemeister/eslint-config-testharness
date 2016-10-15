@@ -6,15 +6,18 @@ test runner that is used to run the [web platform tests](https://github.com/w3c/
 ## Usage
 
 ```bash
-npm install --save-dev eslint-config-testharness
+npm install --save-dev eslint-plugin-testharness
 ```
 
 Extend your existing eslint configuration and set a new environment:
 
 ```json
 {
+  "plugins": [
+    "testharness"
+  ],
   "env": {
-    "eslint-config-testharness/testharness": true
+    "eslint-plugin-testharness/testharness": true
   }
 }
 ```
