@@ -4,7 +4,8 @@
   "description": "ESLint preset for W3C's testharness.js test runner",
   "main": "index.js",
   "scripts": {
-    "test": "eslint 'test/**'"
+    "test": "eslint 'test/**'",
+    "prepublish": "npm t"
   },
   "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
   "license": "MIT",
