@@ -17,7 +17,7 @@ Extend your existing eslint configuration and set a new environment:
     "testharness"
   ],
   "env": {
-    "eslint-plugin-testharness/testharness": true
+    "testharness/testharness": true
   }
 }
 ```
