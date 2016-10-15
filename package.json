@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-testharness",
+  "version": "1.0.0",
+  "description": "ESLint preset for W3C's testharness.js test runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint 'test/**'"
+  },
+  "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.8.0"
+  }
+}
