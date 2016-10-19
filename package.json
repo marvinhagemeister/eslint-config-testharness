@@ -2,6 +2,14 @@
   "name": "eslint-plugin-testharness",
   "version": "1.0.0",
   "description": "ESLint plugin for W3C's testharness.js test runner",
+  "keywords": [
+    "testharness",
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marvinhagemeister/eslint-plugin-testharness.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "eslint 'test/**'",
