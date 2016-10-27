@@ -13,11 +13,18 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint 'test/**'",
+    "test-unit": "mocha 'test/*.spec.js'",
+    "watch-test-unit": "npm run test-unit -- -w",
     "prepublish": "npm t"
   },
   "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marvinhagemeister/eslint-plugin-testharness.git"
+  },
   "devDependencies": {
-    "eslint": "^3.8.0"
+    "eslint": "^3.8.0",
+    "mocha": "^3.1.2"
   }
 }
